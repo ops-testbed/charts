@@ -1,0 +1,15 @@
+repoUrl: https://github.com/yoon-youngjin/charts
+
+apps:
+  - name: nginx
+    namespace: nginx
+    source:
+      path: nginx
+  - name: gocd
+    namespace: gocd
+    source:
+      path: gocd
+  - name: kafka
+    namespace: kafka
+    source:
+      path: strimzi-kafka-operator
