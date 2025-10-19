@@ -1,0 +1,8 @@
+name: my-cluster
+
+topics:
+  - name: logs
+    partition: 3
+    config:
+      retention.ms: 7200000
+      segment.bytes: 1073741824
