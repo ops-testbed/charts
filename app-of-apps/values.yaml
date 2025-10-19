@@ -13,3 +13,7 @@ apps:
     namespace: kafka
     source:
       path: strimzi-kafka-operator
+  - name: elasticsearch
+    namespace: elasticsearch
+    source:
+      path: elasticsearch
