@@ -1,4 +1,4 @@
-repoUrl: https://github.com/yoon-youngjin/charts
+repoUrl: https://github.com/ops-testbed/charts
 
 apps:
   - name: nginx
