@@ -13,3 +13,7 @@ apps:
     namespace: kafka
     source:
       path: strimzi-kafka-operator
+  - name: logstash
+    namespace: logstash
+    source:
+      path: logstash
